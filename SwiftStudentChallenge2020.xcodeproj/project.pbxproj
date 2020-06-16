@@ -26,6 +26,8 @@
 		99751550249931360081799F /* AudioRecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99751533249931350081799F /* AudioRecordingViewController.swift */; };
 		99751551249931360081799F /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99751534249931350081799F /* Classification.swift */; };
 		99751552249931360081799F /* AudioClassifierResultsObserving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99751535249931350081799F /* AudioClassifierResultsObserving.swift */; };
+		9975155424994BC80081799F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9975155324994BC80081799F /* README.md */; };
+		9975155624994D7D0081799F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9975155524994D7D0081799F /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		99751533249931350081799F /* AudioRecordingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioRecordingViewController.swift; sourceTree = "<group>"; };
 		99751534249931350081799F /* Classification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
 		99751535249931350081799F /* AudioClassifierResultsObserving.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioClassifierResultsObserving.swift; sourceTree = "<group>"; };
+		9975155324994BC80081799F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9975155524994D7D0081799F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 		997514F5249931160081799F = {
 			isa = PBXGroup;
 			children = (
+				9975155324994BC80081799F /* README.md */,
+				9975155524994D7D0081799F /* LICENSE */,
 				99751500249931160081799F /* SwiftStudentChallenge2020 */,
 				997514FF249931160081799F /* Products */,
 			);
@@ -196,7 +202,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9975155424994BC80081799F /* README.md in Resources */,
 				9975150E249931180081799F /* LaunchScreen.storyboard in Resources */,
+				9975155624994D7D0081799F /* LICENSE in Resources */,
 				9975150B249931180081799F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
