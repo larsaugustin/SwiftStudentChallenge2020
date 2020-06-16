@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99751502249931160081799F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99751501249931160081799F /* AppDelegate.swift */; };
+		99751504249931160081799F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99751503249931160081799F /* SceneDelegate.swift */; };
+		9975150B249931180081799F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9975150A249931180081799F /* Assets.xcassets */; };
+		9975150E249931180081799F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9975150C249931180081799F /* LaunchScreen.storyboard */; };
+		99751538249931360081799F /* Page0EarAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99751518249931350081799F /* Page0EarAge.swift */; };
+		99751539249931360081799F /* Page0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99751519249931350081799F /* Page0ViewController.swift */; };
+		9975153A249931360081799F /* Page0AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9975151A249931350081799F /* Page0AudioEngine.swift */; };
+		9975153E249931360081799F /* SwiftStudentChallengeClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9975151E249931350081799F /* SwiftStudentChallengeClassifier.mlmodel */; };
+		99751546249931360081799F /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99751527249931350081799F /* Page1ViewController.swift */; };
+		99751547249931360081799F /* Page1AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99751528249931350081799F /* Page1AudioEngine.swift */; };
+		99751548249931360081799F /* Page1PlaybackAndTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99751529249931350081799F /* Page1PlaybackAndTextViewController.swift */; };
+		99751549249931360081799F /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9975152B249931350081799F /* Page2ViewController.swift */; };
+		9975154A249931360081799F /* Page2RecognitionResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9975152C249931350081799F /* Page2RecognitionResultViewController.swift */; };
+		9975154B249931360081799F /* Page2NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9975152D249931350081799F /* Page2NewViewController.swift */; };
+		9975154E249931360081799F /* AnaysisResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99751531249931350081799F /* AnaysisResult.swift */; };
+		9975154F249931360081799F /* AudioClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99751532249931350081799F /* AudioClassifier.swift */; };
+		99751550249931360081799F /* AudioRecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99751533249931350081799F /* AudioRecordingViewController.swift */; };
+		99751551249931360081799F /* Classification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99751534249931350081799F /* Classification.swift */; };
+		99751552249931360081799F /* AudioClassifierResultsObserving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99751535249931350081799F /* AudioClassifierResultsObserving.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		997514FE249931160081799F /* SwiftStudentChallenge2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStudentChallenge2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99751501249931160081799F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99751503249931160081799F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9975150A249931180081799F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9975150D249931180081799F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9975150F249931180081799F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99751518249931350081799F /* Page0EarAge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page0EarAge.swift; sourceTree = "<group>"; };
+		99751519249931350081799F /* Page0ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page0ViewController.swift; sourceTree = "<group>"; };
+		9975151A249931350081799F /* Page0AudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page0AudioEngine.swift; sourceTree = "<group>"; };
+		9975151E249931350081799F /* SwiftStudentChallengeClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SwiftStudentChallengeClassifier.mlmodel; sourceTree = "<group>"; };
+		99751527249931350081799F /* Page1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		99751528249931350081799F /* Page1AudioEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page1AudioEngine.swift; sourceTree = "<group>"; };
+		99751529249931350081799F /* Page1PlaybackAndTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page1PlaybackAndTextViewController.swift; sourceTree = "<group>"; };
+		9975152B249931350081799F /* Page2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		9975152C249931350081799F /* Page2RecognitionResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page2RecognitionResultViewController.swift; sourceTree = "<group>"; };
+		9975152D249931350081799F /* Page2NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page2NewViewController.swift; sourceTree = "<group>"; };
+		99751531249931350081799F /* AnaysisResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnaysisResult.swift; sourceTree = "<group>"; };
+		99751532249931350081799F /* AudioClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioClassifier.swift; sourceTree = "<group>"; };
+		99751533249931350081799F /* AudioRecordingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioRecordingViewController.swift; sourceTree = "<group>"; };
+		99751534249931350081799F /* Classification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classification.swift; sourceTree = "<group>"; };
+		99751535249931350081799F /* AudioClassifierResultsObserving.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioClassifierResultsObserving.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		997514FB249931160081799F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		997514F5249931160081799F = {
+			isa = PBXGroup;
+			children = (
+				99751500249931160081799F /* SwiftStudentChallenge2020 */,
+				997514FF249931160081799F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		997514FF249931160081799F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				997514FE249931160081799F /* SwiftStudentChallenge2020.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99751500249931160081799F /* SwiftStudentChallenge2020 */ = {
+			isa = PBXGroup;
+			children = (
+				99751501249931160081799F /* AppDelegate.swift */,
+				99751503249931160081799F /* SceneDelegate.swift */,
+				99751517249931350081799F /* Page0 */,
+				99751526249931350081799F /* Page1 */,
+				9975152A249931350081799F /* Page2 */,
+				99751530249931350081799F /* Shared */,
+				9975151E249931350081799F /* SwiftStudentChallengeClassifier.mlmodel */,
+				9975150A249931180081799F /* Assets.xcassets */,
+				9975150C249931180081799F /* LaunchScreen.storyboard */,
+				9975150F249931180081799F /* Info.plist */,
+			);
+			path = SwiftStudentChallenge2020;
+			sourceTree = "<group>";
+		};
+		99751517249931350081799F /* Page0 */ = {
+			isa = PBXGroup;
+			children = (
+				99751518249931350081799F /* Page0EarAge.swift */,
+				99751519249931350081799F /* Page0ViewController.swift */,
+				9975151A249931350081799F /* Page0AudioEngine.swift */,
+			);
+			path = Page0;
+			sourceTree = "<group>";
+		};
+		99751526249931350081799F /* Page1 */ = {
+			isa = PBXGroup;
+			children = (
+				99751527249931350081799F /* Page1ViewController.swift */,
+				99751528249931350081799F /* Page1AudioEngine.swift */,
+				99751529249931350081799F /* Page1PlaybackAndTextViewController.swift */,
+			);
+			path = Page1;
+			sourceTree = "<group>";
+		};
+		9975152A249931350081799F /* Page2 */ = {
+			isa = PBXGroup;
+			children = (
+				9975152B249931350081799F /* Page2ViewController.swift */,
+				9975152C249931350081799F /* Page2RecognitionResultViewController.swift */,
+				9975152D249931350081799F /* Page2NewViewController.swift */,
+			);
+			path = Page2;
+			sourceTree = "<group>";
+		};
+		99751530249931350081799F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				99751531249931350081799F /* AnaysisResult.swift */,
+				99751532249931350081799F /* AudioClassifier.swift */,
+				99751533249931350081799F /* AudioRecordingViewController.swift */,
+				99751534249931350081799F /* Classification.swift */,
+				99751535249931350081799F /* AudioClassifierResultsObserving.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		997514FD249931160081799F /* SwiftStudentChallenge2020 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99751512249931180081799F /* Build configuration list for PBXNativeTarget "SwiftStudentChallenge2020" */;
+			buildPhases = (
+				997514FA249931160081799F /* Sources */,
+				997514FB249931160081799F /* Frameworks */,
+				997514FC249931160081799F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftStudentChallenge2020;
+			productName = SwiftStudentChallenge2020;
+			productReference = 997514FE249931160081799F /* SwiftStudentChallenge2020.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		997514F6249931160081799F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Lars Augustin";
+				TargetAttributes = {
+					997514FD249931160081799F = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 997514F9249931160081799F /* Build configuration list for PBXProject "SwiftStudentChallenge2020" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 997514F5249931160081799F;
+			productRefGroup = 997514FF249931160081799F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				997514FD249931160081799F /* SwiftStudentChallenge2020 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		997514FC249931160081799F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9975150E249931180081799F /* LaunchScreen.storyboard in Resources */,
+				9975150B249931180081799F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		997514FA249931160081799F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99751546249931360081799F /* Page1ViewController.swift in Sources */,
+				99751549249931360081799F /* Page2ViewController.swift in Sources */,
+				9975154A249931360081799F /* Page2RecognitionResultViewController.swift in Sources */,
+				9975154F249931360081799F /* AudioClassifier.swift in Sources */,
+				99751548249931360081799F /* Page1PlaybackAndTextViewController.swift in Sources */,
+				99751538249931360081799F /* Page0EarAge.swift in Sources */,
+				99751502249931160081799F /* AppDelegate.swift in Sources */,
+				99751550249931360081799F /* AudioRecordingViewController.swift in Sources */,
+				99751539249931360081799F /* Page0ViewController.swift in Sources */,
+				99751551249931360081799F /* Classification.swift in Sources */,
+				99751504249931160081799F /* SceneDelegate.swift in Sources */,
+				99751552249931360081799F /* AudioClassifierResultsObserving.swift in Sources */,
+				9975153A249931360081799F /* Page0AudioEngine.swift in Sources */,
+				9975153E249931360081799F /* SwiftStudentChallengeClassifier.mlmodel in Sources */,
+				9975154E249931360081799F /* AnaysisResult.swift in Sources */,
+				9975154B249931360081799F /* Page2NewViewController.swift in Sources */,
+				99751547249931360081799F /* Page1AudioEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9975150C249931180081799F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9975150D249931180081799F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99751510249931180081799F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99751511249931180081799F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99751513249931180081799F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftStudentChallenge2020/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.larsaugustin.SwiftStudentChallenge2020;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99751514249931180081799F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiftStudentChallenge2020/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.larsaugustin.SwiftStudentChallenge2020;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		997514F9249931160081799F /* Build configuration list for PBXProject "SwiftStudentChallenge2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99751510249931180081799F /* Debug */,
+				99751511249931180081799F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99751512249931180081799F /* Build configuration list for PBXNativeTarget "SwiftStudentChallenge2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99751513249931180081799F /* Debug */,
+				99751514249931180081799F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 997514F6249931160081799F /* Project object */;
+}
